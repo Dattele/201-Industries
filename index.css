@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+#container {
+  background-color: #f5f5f5;
+}
+#topnav {
+    background-color: #9ce067;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+}
+
+#navbar {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+
+.navitem {
+  float: left;
+  padding: 14px 14px;
+  font-size: 18px;
+  text-align: center;
+
+}
+
+.navitem a:hover{
+  color: white;
+  background-color: 1f1f1f;
+}
+
+#search {
+  width: 25%;
+  text-align: center;
+  margin-left: 30%;
+}
+.navitem input[type=text] {
+  width: 100%;
+}
+
+#login {
+  float: right;
+  margin-right: 10px;
+}
+
+#signup {
+  float: right;
+}
+
+.navitem a {
+  display: block;
+  padding: 8px;
+
+}
