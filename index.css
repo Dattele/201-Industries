@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  position: fixed;
+  right: 20.5%;
+}
+
+#container {
+  background-color: #f5f5f5;
+}
+#topnav {
+  background-color: #9ce067;
+  overflow: hidden;
+  width: 100%;
+  display: block;
+}
+
+#navbar {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.navitem {
+  float: left;
+  padding: 14px 14px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.navitem a:hover {
+  color: white;
+  background-color: 1f1f1f;
+}
+
+#search {
+  width: 25%;
+  text-align: center;
+  margin-left: 30%;
+}
+.navitem input[type="text"] {
+  width: 100%;
+}
+
+#login {
+  float: right;
+  margin-right: 10px;
+}
+
+#signup {
+  float: right;
+}
+
+.navitem a {
+  display: block;
+  padding: 8px;
+}
+
+.chartOne {
+  font-family: "Times New Roman", Times, serif;
+  position: fixed;
+  left: 65%;
+  top: 15%;
+  border: 2px solid greenyellow;
+}
+
+.chartTwo {
+  font-family: "Times New Roman", Times, serif;
+  position: fixed;
+  left: 65%;
+  top: 20%;
+  border: 2px solid greenyellow;
+}
+
+.chartThree {
+  font-family: "Times New Roman", Times, serif;
+  position: fixed;
+  left: 65%;
+  top: 25%;
+  border: 2px solid greenyellow;
+}
+
+.chartFour {
+  font-family: "Times New Roman", Times, serif;
+  position: fixed;
+  left: 65%;
+  top: 30%;
+  border: 2px solid greenyellow;
+}
+
+.chartFive {
+  font-family: "Times New Roman", Times, serif;
+  position: fixed;
+  left: 65%;
+  top: 35%;
+  border: 2px solid greenyellow;
+}
+
+.chartSix {
+  font-family: "Times New Roman", Times, serif;
+  position: fixed;
+  left: 65%;
+  top: 40%;
+  border: 2px solid greenyellow;
+}
+
+.chartSeven {
+  font-family: "Times New Roman", Times, serif;
+  position: fixed;
+  left: 65%;
+  top: 45%;
+  border: 2px solid greenyellow;
+}
+
+.chartEight {
+  font-family: "Times New Roman", Times, serif;
+  position: fixed;
+  left: 65%;
+  top: 50%;
+  border: 2px solid greenyellow;
+}
+
+.chartNine {
+  font-family: "Times New Roman", Times, serif;
+  position: fixed;
+  left: 65%;
+  top: 55%;
+  border: 2px solid greenyellow;
+}
+
+.chartTen {
+  font-family: "Times New Roman", Times, serif;
+  position: fixed;
+  left: 65%;
+  top: 60%;
+  border: 2px solid greenyellow;
+}
+
+.horizon {
+  width: 300px;
+  position: fixed;
+  bottom: 10%;
+  left: 2%;
+}
+
+.beartooth {
+  width: 300px;
+  position: fixed;
+  bottom: 10%;
+  left: 19.5%;
+}
+
+.juice {
+  width: 300px;
+  position: fixed;
+  bottom: 10%;
+  left: 37%;
+}
+
+.sen {
+  width: 300px;
+  position: fixed;
+  bottom: 50%;
+  left: 2%;
+}
+
+.nirvana {
+  width: 300px;
+  position: fixed;
+  bottom: 50%;
+  left: 19.5%;
+}
+
+.kanye {
+  width: 300px;
+  position: fixed;
+  bottom: 50%;
+  left: 37%;
+}
