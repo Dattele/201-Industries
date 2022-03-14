@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <link rel="stylesheet" href="Artist.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spoofify Artist Page</title>
+    <!--
+    Top Bar
+    -->
+</head>
+<body>
+    <div id="topnav">
+        <ul id="navbar">
+          <li class="navitem">Spoofify</li>
+          <input
+            class="navitem"
+            id="search"
+            type="text"
+            placeholder="Search..."
+            name=""
+          />
+          <li class="navitem" id="login">Login</li>
+          <li class="navitem" id="signup">Sign Up</li>
+        </ul>
+    </div>    
+    <div>
+        <!--
+        Artist Name
+        -->
+        <h1 style="font-size:60px; text-align:center;" >Beartooth</h1>
+    </div>
+        <!-- 
+        Album Cover
+        -->
+       <img class="sen" src="Beartooth.jpg" alt="Album_Cover"/></a>
+	<div>
+		<fieldset>
+			<legend>Top Charts</legend>  
+			<ul>
+				<li>1. In Between </li>
+				<li>2. Hated </li>
+				<li>3. Disease </li>
+				<li>4. Skin </li>
+				<li>5. The Past is Dead</li>
+			</ul>
+		</fieldset>
+		<fieldset>
+			<legend>Recent Albums</legend>  
+			<ul>
+				<li>2021: Below  </li>
+				<li>2020: Aggressive </li>
+				<li>2019: Disease </li>
+			</ul>
+		</fieldset>
+	</div>
+  <div class="bottomgroup">
+    <div class="leftcontrols">
+      <div class="prevbutton">
+        <a ng-click="prev()"><img src="images/btn-prev.png" /></a>
+      </div>
+
+      <div class="playbutton">
+        <a ng-click="resume()" ng-hide="playing"><img src="images/btn-play.png" /></a>
+        <a ng-click="pause()" ng-show="playing"><img src="images/btn-pause.png" /></a>
+      </div>
+
+      <div class="nextbutton">
+        <a ng-click="next()"><img src="images/btn-next.png" /></a>
+      </div>
+
+      <div class="volume">
+        <input type="range" ng-change="changevolume()" min="0" max="100" ng-model="volume" />
+      </div>
+    </div>
+    <div class="seekcontrols">
+      <div class="progress">{{ progress | displaytime }}</div>
+      <div class="duration">{{ duration | displaytime }}</div>
+      <div class="slider">
+        <input type="range" ng-model="progress" ng-change="changeprogress()" min="0" max="{{duration}}" />
+      </div>
+    </div>
+    <div class="rightcontrols">
+      <!--
+      a ng-click="shuffle()">SHUF</a>
+      a ng-click="repeat()">REP.</a>
+      -->
+    </div>
+      
+
+
+
+
+</body>
+</html>
