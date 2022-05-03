@@ -8,9 +8,9 @@ All of the features were taken from Possan's webapi-player-example (https://gith
 ## How to Run
 You will need to run a server. The example is ready to work in the port 8000, so you can do:
 
-    $ python3 -m http.server 8080
+    $ python3 -m http.server 8000
 
-and open `http://localhost:8080` in a browser. (This requires python to be installed on your machine.)
+and open `http://localhost:8000` in a browser. (This requires python to be installed on your machine.)
 
 ## File Structure
 Partials folder is a templet folder for loading  

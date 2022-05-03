@@ -1,7 +1,7 @@
 <html ng-app="PlayerApp">
 	<head>
 		<title>Spoofify</title>
-		<link rel="stylesheet" href="alt_style.css" />
+		<link rel="stylesheet" href="style.css" />
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'>
 		<script src="bower_components/angular/angular.js"></script>
 		<script src="bower_components/angular-route/angular-route.js"></script>
@@ -47,10 +47,12 @@
 				<div class="midgroup">
 					<div class="menuview">
 						<div class="list scrollable">
-							<b><a href="#/">MAIN</a></b>
+							<b><a href="#/me">MAIN</a></b>
 							<ul class="menuitems">
-								<li><a href="#/" ng-class="getClass('/')">Browse</a></li>
+								<li><a href="#/me" ng-class="getClass('/')">Browse</a></li>
+								<li><a href="https://forms.gle/2a3yzfZuFwMSDN3N8"> Add Music</a></li>
 							</ul>
+							
 							<b><a href="#/me">YOUR MUSIC</a></b>
 							<ul class="menuitems">
 								<li><a href="#/users/{{username}}/tracks" ng-class="getClass('/users/{{username}}/tracks')">Songs</a></li>
@@ -67,7 +69,8 @@
 						</div>
 					
 						<div class="preview">
-							<a href="#/albums/{{trackdata.album.id}}">
+							<!--<a href="#/albums/{{trackdata.album.id}}"> -->
+								<a href="https://docs.google.com/forms/d/e/1FAIpQLScMGwTBnCz8nOPkM5g9IwwbpKolEWOXkhpAUSl8JjlkKcBGKw/closedform"></a>
 								<responsive-cover ng-model="trackdata.album.images"></responsive-cover>
 							</a>
 							<p>
@@ -125,9 +128,12 @@
 						<h1>Spoofify</h1>
 						<p>
 							This demo explores the possibilities with the Web API. To view this demo you need to sign in with your spotify account.
+							Guest Login Username : group10cse201@gmail.com Password : 10cse201 
 						</p>
 						<a ng-click="login()" class="button big green">login</a>
-					</div>
+						<!--<a ng-click="login()" class="button big guest">login</a>
+						-->
+						</div>
 				</div>
 			</div>
 		</div>
